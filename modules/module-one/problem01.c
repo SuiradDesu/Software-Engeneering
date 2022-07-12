@@ -26,7 +26,7 @@ int main(){
       printf("Digite sua altura: ");
       scanf("%f", &altura);
     
-      imc = (peso * (altura * altura))/ 2;
+      imc = (peso / (altura * altura));
       if(imc < 18.5){
         printf("Nome: %s", nome);
         printf("Resultado: Abaixo do peso \n");
